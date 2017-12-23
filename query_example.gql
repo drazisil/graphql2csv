@@ -1,0 +1,17 @@
+query {
+    rateLimit {
+        cost
+        remaining
+        resetAt
+    },
+    user(login: "drazisil") {
+        createdAt
+        repositories(last: 100) {
+            nodes {
+                name
+                url
+                createdAt
+            }
+        }
+    }
+}
