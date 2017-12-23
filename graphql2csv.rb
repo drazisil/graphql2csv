@@ -32,5 +32,7 @@ res = Net::HTTP.post URI('https://api.github.com/graphql'),
 
         responseJSON = JSON.parse(res.body)['data']
 
+        puts res.body
+
                
 puts JSON.pretty_generate(responseJSON) 
