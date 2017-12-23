@@ -7,3 +7,5 @@ t.rspec_opts = '--format documentation'
 # t.rspec_opts << ' more options'
 end
 task :default => :spec
+task "db:create"
+task "db:schema:load"
