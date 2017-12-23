@@ -3,6 +3,10 @@ require 'uri'
 require 'json'
 require 'pp'
 
+class GraphQL2CSV
+  
+end
+
 if not ENV.has_key?('TOKEN')
     puts "Please set the env: TOKEN"
     exit
