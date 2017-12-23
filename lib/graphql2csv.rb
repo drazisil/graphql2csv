@@ -9,7 +9,7 @@ end
 
 if not ENV.has_key?('TOKEN')
     puts "Please set the env: TOKEN"
-    exit
+    exit(1)
 end
 
 query = { 
