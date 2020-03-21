@@ -4,5 +4,5 @@ source 'https://rubygems.org' do
     gem "rake", "12.3.3"
     gem "rspec_junit_formatter", "0.3.0"
 
-    gem 'simplecov', "0.13.0", :require => false, :group => :test
+    gem 'simplecov', '0.13.0', :require => false, :group => :test
   end
